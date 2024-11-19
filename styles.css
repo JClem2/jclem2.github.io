@@ -18,3 +18,9 @@ nav {
     background-color: #222222;
     color: whitesmoke;
 }
+
+#introduction {
+    max-width: 85%;
+    margin: auto;
+    padding: 10px;
+}
