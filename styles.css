@@ -12,12 +12,12 @@ nav {
     color: whitesmoke;
     margin: auto;
     padding: 10px;
+    font-size: large;
 }
 
 nav a {
     color: whitesmoke;
     text-decoration: none;
-    font-size: large;
 }
 
 .dark-mode {
@@ -32,4 +32,9 @@ nav a {
     max-width: 85%;
     margin: auto;
     padding: 10px;
+}
+
+p a {
+    color: aqua;
+    text-decoration: none;
 }
