@@ -1,4 +1,9 @@
 body {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.dark_mode {
     background-color: black;
     color: whitesmoke;
 }
