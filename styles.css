@@ -25,7 +25,10 @@ nav a {
     color: whitesmoke;
 }
 
-#introduction {
+#introduction, 
+#about, 
+#projects, 
+#contact {
     max-width: 85%;
     margin: auto;
     padding: 10px;
