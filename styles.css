@@ -13,6 +13,10 @@ nav {
     margin: auto;
     padding: 10px;
     font-size: large;
+    position: sticky;
+    top: 0%;
+    overflow: hidden;
+    
 }
 
 nav a {
