@@ -2,10 +2,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     color: black;
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.dark_mode {
+.dark-mode {
     background-color: #333333;
     color: whitesmoke;
 }
