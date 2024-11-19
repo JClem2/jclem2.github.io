@@ -32,9 +32,16 @@ nav a {
     max-width: 85%;
     margin: auto;
     padding: 10px;
+    font-size: large;
 }
 
 p a {
-    color: aqua;
+    color: orange;
     text-decoration: none;
+}
+
+footer {
+    margin: auto;
+    padding: 10px;
+    font-size: medium;
 }
