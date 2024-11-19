@@ -16,7 +16,7 @@ nav {
     position: sticky;
     top: 0%;
     overflow: hidden;
-    
+    justify-content: center;
 }
 
 nav a {
@@ -47,5 +47,6 @@ p a {
 footer {
     margin: auto;
     padding: 10px;
-    font-size: medium;
+    font-size: small;
+    justify-content: center;
 }
