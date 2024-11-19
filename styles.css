@@ -16,7 +16,7 @@ nav {
     position: sticky;
     top: 0%;
     overflow: hidden;
-    justify-content: center;
+    text-align: center;
 }
 
 nav a {
@@ -44,9 +44,9 @@ p a {
     text-decoration: none;
 }
 
-footer {
+#foot-text {
     margin: auto;
     padding: 10px;
     font-size: small;
-    justify-content: center;
+    text-align: center;
 }
