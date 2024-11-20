@@ -14,14 +14,40 @@ nav {
     padding: 10px 20px;
     font-size: large;
     position: sticky;
-    top: 0%;
+    top: 0;
     overflow: hidden;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav a {
     color: whitesmoke;
     text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+
+nav a:hover {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.dark-mode-btn {
+    background-color: #444;
+    color: whitesmoke;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode-btn:hover {
+    background-color: #666;
 }
 
 .dark-mode {
