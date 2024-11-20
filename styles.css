@@ -43,6 +43,11 @@ nav a {
     padding: 20px 0;
 }
 
+.project-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
 p a {
     color: orange;
     text-decoration: none;
