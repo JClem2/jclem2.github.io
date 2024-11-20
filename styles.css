@@ -116,18 +116,24 @@ p a {
 }
 
 @media (max-width: 768px) {
-    nav {
+    .nav-links {
+        display: none; 
         flex-direction: column;
         text-align: center;
+        width: 100%;
+        margin-top: 10px;
     }
 
-    .nav-links {
+    .nav-links a {
+        padding: 15px 0;
         display: block;
-        gap: 10px;
-        margin: 0;
     }
 
-    .dark-mode-btn {
-        margin-top: 15px;
+    .hamburger-menu {
+        display: flex; 
+    }
+    
+    .nav-links.active {
+        display: flex;
     }
 }
