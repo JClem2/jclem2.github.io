@@ -112,6 +112,21 @@ nav a:hover {
     object-fit: cover;
 }
 
+.toggle-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+    background-color: darkorange;
+}
+
 .description {
     margin: 10px 0;
 }
@@ -151,5 +166,9 @@ p a {
     
     .nav-links.active {
         display: flex;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
     }
 }
