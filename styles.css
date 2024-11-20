@@ -112,6 +112,12 @@ nav a:hover {
     object-fit: cover;
 }
 
+.project-details {
+    display: none;
+    text-align: left;
+    margin-top: 10px;
+}
+
 .toggle-btn {
     background-color: orange;
     color: white;
