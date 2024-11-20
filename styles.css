@@ -130,6 +130,7 @@ p a {
     text-align: center;
 }
 
+
 @media (max-width: 768px) {
     .nav-links {
         display: none; 
@@ -138,12 +139,12 @@ p a {
         width: 100%;
         margin-top: 10px;
     }
-
+    
     .nav-links a {
         padding: 15px 0;
         display: block;
     }
-
+    
     .hamburger-menu {
         display: flex; 
     }
