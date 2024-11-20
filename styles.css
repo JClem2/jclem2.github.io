@@ -56,6 +56,7 @@ nav a {
     text-align: center;
     background: #f9f9f9;
     transition: all 0.5s ease-in-out;
+    color: black;
 }
 
 .project-box img {
@@ -67,7 +68,6 @@ nav a {
 
 .description {
     margin: 10px 0;
-    color: black;
 }
 
 
