@@ -11,7 +11,6 @@
 <body>
     <nav>
         <a href="#introduction">Introduction</a>
-        <a href="#about">About Me</a>
         <a href="#projects">My Projects</a>
         <a href="#contact">Contact Me</a>
         <button onclick="darkMode()">Dark Mode</button> 
@@ -27,30 +26,36 @@
         </p>
     </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            My journey began with a curiosity about how cars operate, which led to developing my own mechanic skills and working professionally as an automotive technician for a year. 
-            This hands-on problem-solving approach taught me how to quickly pick up new concepts, a lesson that transitioned seamlessly into the world of programming and technology.
-        </p>    
-        <p>    
-            In addition to my time as a mechanic, I spent five years working in an industrial metal shop, where I mastered precision and attention to detail as a PEM Operator and apprentice machinist. 
-            These experiences provided a strong grounding in technical systems and a meticulous approach to my work.
-        </p>    
-        <p>    
-            Over the past two years, I’ve applied these principles to technology projects at Clayton State University’s Robotics Laboratory, developing innovative solutions like an automated drone platform and programmable bipedal robots. 
-            My work has been showcased at the CSU CIMS Symposium in both 2023 and 2024, where I presented these projects on stage. 
-            I’ve also contributed to inspiring the next generation of technologists, collaborating with the Department Head to run summer camps for middle and high school students focused on Data Science and AI.
-        </p>    
-        <p>
-            For me, learning is always at the forefront of my journey. 
-            Whether it’s understanding a car engine, designing database solutions, or programming innovative systems, I thrive on tackling complex problems and turning ideas into reality.
-        </p>
-    </section>
-
     <section id="projects">
         <h2>My Projects</h2>
 
+        <div class="project-grid">
+
+            <div class="project-box" id="project1">
+                <img src="https://placehold.co/600x400" alt="Project 1 Image">
+                <p class="description">PLACEHOLDER TEXT</p>
+                <button class="read-more" onclick="toggleProject(project1)">Read More</button>
+            </div>
+
+            <div class="project-box" id="project2">
+                <img src="https://placehold.co/600x400" alt="Project 2 Image">
+                <p class="description">PLACEHOLDER TEXT</p>
+                <button class="read-more" onclick="toggleProject(project2)">Read More</button>
+            </div>
+
+            <div class="project-box" id="project3">
+                <img src="https://placehold.co/600x400" alt="Project 3 Image">
+                <p class="description">PLACEHOLDER TEXT</p>
+                <button class="read-more" onclick="toggleProject(project3)">Read More</button>
+            </div>
+
+            <div class="project-box" id="project4">
+                <img src="https://placehold.co/600x400" alt="Project 4 Image">
+                <p class="description">PLACEHOLDER TEXT</p>
+                <button class="read-more" onclick="toggleProject(project4)">Read More</button>
+            </div>
+            
+        </div>
     </section>
 
     <section id="contact">
