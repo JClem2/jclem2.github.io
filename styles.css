@@ -24,10 +24,12 @@ nav a {
     text-decoration: none;
 }
 
-.dark-mode {
+body.dark-mode {
     background-color: #222222;
     color: whitesmoke;
 }
+
+
 
 #introduction, 
 #about, 
@@ -65,7 +67,7 @@ nav a {
     object-fit: cover;
 }
 
-.description {
+body.description {
     margin: 10px 0;
     color: black;
 }
