@@ -67,7 +67,7 @@ body.dark-mode {
     object-fit: cover;
 }
 
-body.description {
+.description {
     margin: 10px 0;
     color: black;
 }
