@@ -114,3 +114,20 @@ p a {
     font-size: small;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        display: block;
+        gap: 10px;
+        margin: 0;
+    }
+
+    .dark-mode-btn {
+        margin-top: 15px;
+    }
+}
