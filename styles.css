@@ -60,6 +60,21 @@ nav a:hover {
     color: whitesmoke;
 }
 
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: space-between;
+    height: 20px;
+    width: 30px;
+}
+
+.hamburger-menu .line {
+    height: 4px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
 #introduction, 
 #about, 
 #projects, 
