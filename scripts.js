@@ -12,7 +12,7 @@ function toggleProject(projectId) {
 
     const allProjects = document.querySelectorAll(".project-box");
 
-    allProjects.forEach(box => DOMException.classList.remove("expanded"));
+    allProjects.forEach(box => box.classList.remove("expanded"));
 
     if(!isExpanded) {
         project.classList.add("expanded");
